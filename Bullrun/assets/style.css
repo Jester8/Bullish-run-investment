@@ -961,6 +961,9 @@
   @media (prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth; } }
+
+
+      
   
   body {
     margin: 0;
@@ -973,6 +976,8 @@
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+    
   
   hr {
     margin: 1rem 0;
@@ -3127,22 +3132,43 @@
       background-color: var(--bs-btn-disabled-bg);
       border-color: var(--bs-btn-disabled-border-color);
       opacity: var(--bs-btn-disabled-opacity); }
+
+
+      .btn-wine {
+        background-color: #800080;
+        border-color: #800080;
+        color: #fff;
+        padding: 15px;
+        padding-left: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .btn-wine:hover {
+        background-color: #6a0dad; /* Slightly lighter purple for hover */
+        border-color: #6a0dad;
+        color: white;
+    }
+    .btn-wine-outline {
+        background-color:transparent; /* Bootstrap primary color */
+        border-color: #800080;
+        color: #fff;
+    }
   
   .btn-primary {
     --bs-btn-color: #000000;
-    --bs-btn-bg: #F3BA2F;
+    --bs-btn-bg: #800080 ;
     --bs-btn-border-color: #F3BA2F;
     --bs-btn-hover-color: #000000;
-    --bs-btn-hover-bg: #52eb52;
-    --bs-btn-hover-border-color: #48ea48;
+    --bs-btn-hover-bg: #800080 ;
+    --bs-btn-hover-border-color: #800080;
     --bs-btn-focus-shadow-rgb: 44, 197, 44;
     --bs-btn-active-color: #000000;
     --bs-btn-active-bg: #5ded5d;
     --bs-btn-active-border-color: #48ea48;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #000000;
-    --bs-btn-disabled-bg: #F3BA2F;
-    --bs-btn-disabled-border-color: #F3BA2F; }
+    --bs-btn-disabled-bg: #800080;
+    --bs-btn-disabled-border-color: #800080; }
   
   .btn-secondary {
     --bs-btn-color: #FFFFFF;
@@ -3209,19 +3235,19 @@
     --bs-btn-disabled-border-color: #000000; }
   
   .btn-outline-primary {
-    --bs-btn-color: #F3BA2F;
-    --bs-btn-border-color: #F3BA2F;
+    --bs-btn-color: #800080;
+    --bs-btn-border-color: #800080;
     --bs-btn-hover-color: #000000;
-    --bs-btn-hover-bg: #F3BA2F;
-    --bs-btn-hover-border-color: #F3BA2F;
+    --bs-btn-hover-bg: #800080;
+    --bs-btn-hover-border-color: #800080;
     --bs-btn-focus-shadow-rgb: 52, 232, 52;
     --bs-btn-active-color: #000000;
-    --bs-btn-active-bg: #F3BA2F;
-    --bs-btn-active-border-color: #F3BA2F;
+    --bs-btn-active-bg: #800080;
+    --bs-btn-active-border-color: #800080;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #F3BA2F;
+    --bs-btn-disabled-color: #800080;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #F3BA2F;
+    --bs-btn-disabled-border-color: #800080;
     --bs-gradient: none; }
   
   .btn-outline-secondary {
@@ -9970,7 +9996,7 @@
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     .carousel .carousel-indicators .active {
-      background-color: #F3BA2F;
+      background-color: #800080;
       width: 2.5rem; }
   
   .gray-bg {
